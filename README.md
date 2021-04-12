@@ -17,7 +17,7 @@ __Code Explanation__
 </br>*MakeSquare Function*
     This function creates the Twist message, gives a sleep command to allow connection to the publisher, and then uses a for loop to create the square with the help of the two previously described functions.
 
-![Driving in a Square](./make_square.gif)
+![Driving in a Square](./gifs/make_square.gif)
 
 
 
@@ -33,6 +33,8 @@ __Code Explanation__
     The main body of the class, this function iterates over the range data to identify what angle is closest to the object. It then proceeds to use this to determine the angular velocity, which is calculated such that it decreases the closer the angle is to 0, meaning it turns less when it is more or less facing the object. The linear velocity has a slightly more complicated formula, in which the speed is determined partially by the distance from the object, such that it slows as it approaches it, stopping at 0.5 meters away. In addition, the velocity is modified by the current angle that is closest to the object. This means that the robot goes slower if the object is behind it, and will go faster as it turns toward the object. This is done to properly allow it to face the object while approaching it. Lastly, if no object is seen, the robot stops.</br>
 </br>*Run Function*
     This is a simple function which spins to listen to the subsribed /scan topic.  
+    
+![Person Follower](./person_follower.gif)
 
 __*Wall Follower*__
 
