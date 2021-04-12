@@ -34,7 +34,7 @@ __Code Explanation__
 </br>*Run Function*
     This is a simple function which spins to listen to the subsribed /scan topic.  
     
-![Person Follower](./person_follower.gif)
+![Person Follower](./gifs/person_follower.gif)
 
 __*Wall Follower*__
 
@@ -49,6 +49,8 @@ __Code Explanation__
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The final case handles the robot once the path has been found, such that the robot is approximately 0.5 meters away from the wall. If the robot is not at a 90 degree angle from the wall it rotates to do this. Once it is properly angled, it starts to go forward, with some angle correction along the way.</br>
 </br>*Run Function*
 Similar to the Person Follower, this simply spins.
+
+![Wall Follower](./gifs/wall_follower.gif)
   
   
   
